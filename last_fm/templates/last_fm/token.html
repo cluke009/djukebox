@@ -1,0 +1,13 @@
+{% load staticfiles %}
+<style type="text/css">
+#done {
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+}
+</style>
+<script type="text/javascript">
+    // Notify parent window this is open
+    parent.authOpen = 'open';
+</script>
+<img id="done" src="{% static "assets/img/done.gif" %}" height="100%" />
