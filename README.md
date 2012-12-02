@@ -46,6 +46,11 @@ vi djukebox/local_settings.py
 python manage.py syncdb
 ```
 
+### Collect static files ###
+```bash
+python manage.py collectstatic
+```
+
 ## Running ##
 ```bash
 python manage.py runserver
