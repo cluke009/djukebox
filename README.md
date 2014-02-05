@@ -1,10 +1,12 @@
 # Djukebox Django Project #
-![Djukebox](https://raw2.github.com/cluke009/djukebox/master/djukebox.png "Djukebox")
+![Djukebox](https://raw2.github.com/cluke009/djukebox/master/djukebox.jpg "Djukebox")
 ## Prerequisites ##
 
 - python >= 2.5
 - pip
 - virtualenv/wrapper (optional)
+
+### Unfortunately you need to be a LastFM subscriber to use this now :( ###
 
 ## Installation ##
 ### Creating the environment ###
