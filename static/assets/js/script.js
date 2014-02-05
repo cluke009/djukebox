@@ -382,17 +382,18 @@ $(document).ready(function () {
      *
      **************************************************************************/
     $('#authorize-submit').on('click', function (e) {
-        e.preventDefault();
-        $(this).bootstrapModal({
-            'id': 'authorize',
-            'title': 'Authorize',
-            'buttons': "test",
-            'iframe': 'http://www.last.fm/api/auth/?api_key=2a4025d4b0ed596867f0cf0ee4cc77d6',
-            'height': ($(window).height()) * 0.7,
-            'width': ($(window).width()) * 0.7
-        });
-        $('#authorize').addClass('ajax-loader');
-        return false;
+        // e.preventDefault();
+        // $(this).bootstrapModal({
+        //     'id': 'authorize',
+        //     'title': 'Authorize',
+        //     'buttons': "test",
+        //     'iframe': 'http://www.last.fm/api/auth/?api_key=2a4025d4b0ed596867f0cf0ee4cc77d6',
+        //     'height': ($(window).height()) * 0.7,
+        //     'width': ($(window).width()) * 0.7
+        // });
+        // $('#authorize').addClass('ajax-loader');
+        // return false;
+        window.open('http://www.last.fm/api/auth/?api_key=2a4025d4b0ed596867f0cf0ee4cc77d6')
     });
 
     /***************************************************************************
