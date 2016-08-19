@@ -1,5 +1,5 @@
 # Djukebox Django Project #
-![Djukebox](https://raw2.github.com/cluke009/djukebox/master/djukebox.jpg "Djukebox")
+![Djukebox](https://raw.githubusercontent.com/cluke009/djukebox/master/djukebox.jpg "Djukebox")
 ## Prerequisites ##
 
 - python >= 2.5
